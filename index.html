@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajan Gym</title>
+
+</head>
+<link rel="stylesheet" href="">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* css Reset  */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://wallpaperaccess.com/full/2465431.jpg);
+    
+}
+.left{
+    position: absolute;
+left: 20px;
+top: 0px;
+
+    /* border: 2px solid rgb(168, 13, 13); */
+display: inline-block;
+
+}
+.left img{
+    width: 80px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+}
+
+.mid{
+
+display: block;
+
+width: 36%;
+margin: auto;
+    /* border: 2px solid green ; */
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.mid li{
+    font-size: 100px;
+}
+
+.right{
+position: absolute;
+right: 10px;
+top: 20px;
+    /* border: 2px solid blue; */
+display: inline-block;
+
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block; 
+    padding: 10px 10px;
+    font-size: 15px;
+   
+}
+.navbar li:hover, .navbar li :active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 14px;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 15px;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(37, 214, 214);
+}
+.container{
+    border: 2px solid rgb(171, 236, 236);
+    margin: 20px 35px;
+    padding: 30px;
+    width: 33%;
+    display: block;
+    border-radius: 20px;
+}
+.form.group input{
+   text-align: center;
+    display: block;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h2{
+    text-align: center;
+    color: rgb(18, 208, 221);
+}
+.container button{
+    display: block;
+    width: 30%;
+    margin:  20px auto;
+}
+</style>
+<body>
+    <header class="header">
+    <!-- left box for logo -->
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQOezfK1or-8Qq7ahjf9uT0ckrD98LcV3Rg&usqp=CAU" alt="">
+<div>  <strong>&rarr;RAJAN FITNESS &larr;</strong></div>
+
+        </div>
+        <!-- mid box for navbar  -->
+<div class="mid">
+    <ul class="navbar">
+       <strong><li><a></a> Home</li>
+       <li><a></a>About</li>
+       <li><a></a>FITNESS Calculator</li>
+       <li><a></a>Contact Us</li> </strong>
+    </ul>
+
+</div>
+<!-- Right  box for button  -->
+<div class="right">
+<button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+
+</div>
+    </header>
+    <div class="container">
+        <h2>Join the best Gym of a delhi now</h2>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Phone No">
+            </div>
+<button class="btn">Submit</button>
+        </form>
+                
+    </div>
+</body>
+</html>
