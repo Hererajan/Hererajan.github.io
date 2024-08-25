@@ -1,0 +1,70 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Calculator",
+      "content": "A calculator is a device or tool used to perform mathematical calculations.",
+      "imgUrl": "./assets/icons/layout.svg",
+      "projectUrl": "https://hererajan.github.io/Calculator/"
+    },
+    {
+      "id": 2,
+      "title": "Age Finder",
+      "content": "Determines a person's age based on provided information or data. ",
+      "imgUrl": "./assets/icons/layout.svg",
+      "projectUrl": "https://hererajan.github.io/Age-Finder/"
+    },
+    {
+      "id": 3,
+      "title": "Weather App",
+      "content": "A Weather App: Your pocket meteorologist.",
+      "imgUrl": "./assets/icons/layout.svg",
+      "projectUrl": "https://hererajan.github.io/Weather-App/"
+    }
+
+  ],
+  "services": [
+    {
+      "id": 1,
+      "icon": "",
+      "title": "design",
+      "content": "Design involves creating visual and conceptual solutions to communication challenges.",
+      "imgUrl": "./assets/icons/figma.svg"
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "ux",
+      "content": "UX focuses on enhancing user satisfaction by improving the usability, accessibility.",
+      "imgUrl": "./assets/icons/user.svg"
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "responsive",
+      "content": " Ensures that websites or applications adapt seamlessly to different devices.",
+      "imgUrl": "./assets/icons/smartphone.svg"
+    },
+    {
+      "id": 4,
+      "icon": "",
+      "title": "maintainance",
+      "content": "Maintenance involves the ongoing support, updates, and optimization of websites.",
+      "imgUrl": "./assets/icons/edit.svg"
+    },
+    {
+      "id": 5,
+      "icon": "",
+      "title": "copywriting",
+      "content": "Copywriting is the art of writing persuasive and engaging content for various purposes.",
+      "imgUrl": "./assets/icons/shield.svg"
+    },
+    {
+      "id": 6,
+      "icon": "",
+      "title": "seo",
+      "content": "SEO aims to improve a website's visibility and ranking in search engine results pages.",
+      "imgUrl": "./assets/icons/search.svg"
+    }
+  ]
+}
